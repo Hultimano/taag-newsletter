@@ -1,335 +1,411 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" name="viewport">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+      name="viewport"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-    
-  <style type="text/css">
-		.ReadMsgBody{
-			width:100%;
-			background-color:#ffffff;
-		}
-		.ExternalClass{
-			width:100%;
-			background-color:#ffffff;
-		}
-		.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
-			line-height:100%;
-		}
-		html{
-			width:100%;
-		}
-		body{
-			-webkit-text-size-adjust:none;
-			-ms-text-size-adjust:none;
-			margin:0;
-			padding:0;
-		}
-		table{
-			border-spacing:0;
-			table-layout:fixed;
-			margin:0 auto;
-		}
-		table table table{
-			table-layout:auto;
-		}
-		img{
-			display:block !important;
-			overflow:hidden !important;
-		}
-		table td{
-			border-collapse:collapse;
-		}
-		.yshortcuts a{
-			border-bottom:none !important;
-		}
-		a{
-			color:#ffffff;
-			text-decoration:none;
-		}
-		.textbutton a{
-			font-family:"Roboto", Arial, Helvetica, sans-serif !important;
-			color:#ffffff !important;
-		}
-		.footer-link a{
-			color:#979797 !important;
-		}
-		.tpl-content{
-			padding:0px !important;
-		}
-	@media only screen and (max-width: 680px){
-		body{
-			width:auto !important;
-		}
+    <style type="text/css">
+      .ReadMsgBody {
+        width: 100%;
+        background-color: #ffffff;
+      }
+      .ExternalClass {
+        width: 100%;
+        background-color: #ffffff;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      html {
+        width: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        border-spacing: 0;
+        table-layout: fixed;
+        margin: 0 auto;
+      }
+      table table table {
+        table-layout: auto;
+      }
+      img {
+        display: block !important;
+        overflow: hidden !important;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      .yshortcuts a {
+        border-bottom: none !important;
+      }
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .textbutton a {
+        font-family: "Roboto", Arial, Helvetica, sans-serif !important;
+        color: #ffffff !important;
+      }
+      .footer-link a {
+        color: #979797 !important;
+      }
+      .tpl-content {
+        padding: 0px !important;
+      }
+      @media only screen and (max-width: 680px) {
+        body {
+          width: auto !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        table[class="table680"] {
+          width: 440px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        table[class="td_width"] {
+          width: 440px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        table[class="table-inner"] {
+          width: 82% !important;
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        table[class="table1"] {
+          width: 100% !important;
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        table[class="table2"] {
+          width: 100% !important;
+          text-align: center !important;
+          margin-bottom: 30px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        table[class="table3"] {
+          width: 100% !important;
+          text-align: center !important;
+          margin-bottom: 20px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        table[class="tablep_p2"] {
+          width: 100% !important;
+          text-align: center !important;
+          margin-bottom: 70px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        td[class="td_600"] {
+          width: 100% !important;
+          text-align: center !important;
+          display: block !important;
+          margin: auto;
+          border: none !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        td[class="text-center"] {
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        td[class="padding_hide"] {
+          padding: 0px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        td[class="padding-left"] {
+          padding-left: 39px !important;
+          padding-right: 39px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        td[class="td_hide"] {
+          width: 0% !important;
+          height: 0px !important;
+          display: none !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        img[class="img"] {
+          width: 440px !important;
+          height: 520px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        img[class="img_full"] {
+          width: 440px !important;
+          height: 460px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        img[class="img1"] {
+          width: 361px !important;
+          height: 360px !important;
+        }
+      }
+      @media only screen and (max-width: 680px) {
+        img[class="img2"] {
+          width: 360px !important;
+          height: 420px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        body {
+          width: auto !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        table[class="table680"] {
+          width: 300px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        table[class="td_width"] {
+          width: 300px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        table[class="table-inner"] {
+          width: 82% !important;
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        table[class="table1"] {
+          width: 100% !important;
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        table[class="table3"] {
+          width: 100% !important;
+          text-align: center !important;
+          margin-bottom: 20px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        table[class="tablep_p2"] {
+          width: 100% !important;
+          text-align: center !important;
+          margin-bottom: 70px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        table[class="table2"] {
+          width: 100% !important;
+          text-align: center !important;
+          margin-bottom: 30px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        td[class="td_600"] {
+          width: 100% !important;
+          text-align: center !important;
+          display: block !important;
+          margin: auto;
+          border: none !important;
+          padding: 0px;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        td[class="text-center"] {
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        td[class="padding_hide"] {
+          padding: 0px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        td[class="padding-left"] {
+          padding-left: 26px !important;
+          padding-right: 26px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        td[class="padding"] {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        td[class="padding1"] {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        td[class="td_hide"] {
+          width: 0% !important;
+          height: 0px !important;
+          display: none !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        img[class="img"] {
+          width: 300px !important;
+          height: 350px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        img[class="img_full"] {
+          width: 300px !important;
+          height: 320px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        img[class="img1"] {
+          width: 246px !important;
+          height: 235px !important;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        img[class="img2"] {
+          width: 246px !important;
+          height: 300px !important;
+        }
+      }
+    </style>
+  </head>
 
-}	@media only screen and (max-width: 680px){
-		table[class=table680]{
-			width:440px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		table[class=td_width]{
-			width:440px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		table[class=table-inner]{
-			width:82% !important;
-			text-align:center !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		table[class=table1]{
-			width:100% !important;
-			text-align:center !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		table[class=table2]{
-			width:100% !important;
-			text-align:center !important;
-			margin-bottom:30px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		table[class=table3]{
-			width:100% !important;
-			text-align:center !important;
-			margin-bottom:20px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		table[class=tablep_p2]{
-			width:100% !important;
-			text-align:center !important;
-			margin-bottom:70px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		td[class=td_600]{
-			width:100% !important;
-			text-align:center !important;
-			display:block !important;
-			margin:auto;
-			border:none !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		td[class=text-center]{
-			text-align:center !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		td[class=padding_hide]{
-			padding:0px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		td[class=padding-left]{
-			padding-left:39px !important;
-			padding-right:39px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		td[class=td_hide]{
-			width:0% !important;
-			height:0px !important;
-			display:none !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		img[class=img]{
-			width:440px !important;
-			height:520px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		img[class=img_full]{
-			width:440px !important;
-			height:460px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		img[class=img1]{
-			width:361px !important;
-			height:360px !important;
-		}
-
-}	@media only screen and (max-width: 680px){
-		img[class=img2]{
-			width:360px !important;
-			height:420px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		body{
-			width:auto !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		table[class=table680]{
-			width:300px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		table[class=td_width]{
-			width:300px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		table[class=table-inner]{
-			width:82% !important;
-			text-align:center !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		table[class=table1]{
-			width:100% !important;
-			text-align:center !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		table[class=table3]{
-			width:100% !important;
-			text-align:center !important;
-			margin-bottom:20px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		table[class=tablep_p2]{
-			width:100% !important;
-			text-align:center !important;
-			margin-bottom:70px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		table[class=table2]{
-			width:100% !important;
-			text-align:center !important;
-			margin-bottom:30px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		td[class=td_600]{
-			width:100% !important;
-			text-align:center !important;
-			display:block !important;
-			margin:auto;
-			border:none !important;
-			padding:0px;
-		}
-
-}	@media only screen and (max-width: 479px){
-		td[class=text-center]{
-			text-align:center !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		td[class=padding_hide]{
-			padding:0px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		td[class=padding-left]{
-			padding-left:26px !important;
-			padding-right:26px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		td[class=padding]{
-			padding-left:15px !important;
-			padding-right:15px !important;
-			text-align:center !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		td[class=padding1]{
-			padding-left:15px !important;
-			padding-right:15px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		td[class=td_hide]{
-			width:0% !important;
-			height:0px !important;
-			display:none !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		img[class=img]{
-			width:300px !important;
-			height:350px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		img[class=img_full]{
-			width:300px !important;
-			height:320px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		img[class=img1]{
-			width:246px !important;
-			height:235px !important;
-		}
-
-}	@media only screen and (max-width: 479px){
-		img[class=img2]{
-			width:246px !important;
-			height:300px !important;
-		}
-
-}</style></head>
   <body>
     <!-- Start module1 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module1" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module1"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#F5F5F5" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyF5F" style="background-color: rgb(245, 245, 245); max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#f2f2f2"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyF5F"
+            style="background-color: #f2f2f2; max-width: 800px"
+            width="100%"
+          >
             <tr>
               <td height="15"></td>
             </tr>
             <tr>
               <td>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td class="td_600" valign="middle">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="330">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="330"
+                      >
                         <tr>
                           <td>
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="130">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="130"
+                            >
                               <!-- Image -->
                               <tr>
                                 <td valign="middle">
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="130">
+                                  <table
+                                    align="center"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="130"
+                                  >
                                     <!-- Image -->
                                     <tr>
                                       <td valign="top" align="center">
-                                        <div style="text-align: center" mc:edit="ph1">
-                                          <img alt="Logo_Taag" border="0" height="112" src="https://mcusercontent.com/625cee219b58214c283d2209e/images/afb12b81-ce14-18f8-3e30-1fee67e25374.png" style="
+                                        <div
+                                          style="text-align: center"
+                                          mc:edit="ph1"
+                                        >
+                                          <img
+                                            alt="Logo_Taag"
+                                            border="0"
+                                            height="112"
+                                            src="https://mcusercontent.com/625cee219b58214c283d2209e/images/afb12b81-ce14-18f8-3e30-1fee67e25374.png"
+                                            style="
                                               height: 112px;
                                               width: 200px;
                                               margin: 0;
                                               padding: 0;
-                                            " width="200">
+                                            "
+                                            width="200"
+                                          />
                                         </div>
                                       </td>
 
-                                      <td align="left" data-color="module1_text1" data-size="module1_text1" mc:edit="alb2" style="
+                                      <td
+                                        align="left"
+                                        data-color="module1_text1"
+                                        data-size="module1_text1"
+                                        mc:edit="alb2"
+                                        style="
                                           color: rgb(51, 51, 51);
                                           font-family: 'Roboto', Arial,
                                             Helvetica, sans-serif;
                                           font-size: 24px;
                                           font-weight: 700;
                                           line-height: 28px;
-                                        "></td>
+                                        "
+                                      ></td>
                                     </tr>
                                     <!-- End Image -->
                                   </table>
@@ -342,28 +418,57 @@
                       </table>
                     </td>
                     <td class="td_600" valign="center">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="245">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="245"
+                      >
                         <tr>
                           <td valign="top">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="245" class="table-inner">
+                            <table
+                              align="center"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="245"
+                              class="table-inner"
+                            >
                               <!-- Menu -->
                               <tr>
-                                <td align="left" data-color="module1_text1" data-size="module1_text1" mc:edit="ab2" style="
+                                <td
+                                  align="left"
+                                  data-color="module1_text1"
+                                  data-size="module1_text1"
+                                  mc:edit="ab2"
+                                  style="
                                     color: rgb(51, 51, 51);
                                     font-family: 'Open Sans', Arial, Helvetica,
                                       sans-serif;
                                     font-size: 13.2167px;
                                     font-weight: 400;
                                     line-height: 19.8333px;
-                                  ">
-                                  <a data-color="module1_text1" href="#" style="
+                                  "
+                                >
+                                  <a
+                                    data-color="module1_text1"
+                                    href="#"
+                                    style="
                                       color: rgb(51, 51, 51);
                                       text-decoration: none;
-                                    ">Linkedin
+                                    "
+                                    >Linkedin
                                   </a>
                                 </td>
 
-                                <td align="center" data-color="module1_text1" data-size="module1_text1" mc:edit="ab3" style="
+                                <td
+                                  align="center"
+                                  data-color="module1_text1"
+                                  data-size="module1_text1"
+                                  mc:edit="ab3"
+                                  style="
                                     color: rgb(51, 51, 51);
                                     font-family: 'Open Sans', Arial, Helvetica,
                                       sans-serif;
@@ -371,22 +476,33 @@
                                     font-weight: 400;
                                     line-height: 19.8333px;
                                     padding: 18px;
-                                  ">
-                                  <a data-color="module1_text1" href="#" style="
+                                  "
+                                >
+                                  <a
+                                    data-color="module1_text1"
+                                    href="#"
+                                    style="
                                       color: rgb(51, 51, 51);
                                       text-decoration: none;
-                                    ">Instagram
+                                    "
+                                    >Instagram
                                   </a>
                                 </td>
 
-                                <td align="right" data-color="module1_text1" data-size="module1_text1" mc:edit="ab4" style="
+                                <td
+                                  align="right"
+                                  data-color="module1_text1"
+                                  data-size="module1_text1"
+                                  mc:edit="ab4"
+                                  style="
                                     color: rgb(51, 51, 51);
                                     font-family: 'Open Sans', Arial, Helvetica,
                                       sans-serif;
                                     font-size: 13.2167px;
                                     font-weight: 400;
                                     line-height: 19.8333px;
-                                  ">
+                                  "
+                                >
                                   Facebook
                                 </td>
                               </tr>
@@ -409,25 +525,55 @@
     </table>
     <!-- End module1 -->
 
+
     <!-- Start module2 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module2" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module2"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="body363" width="100%" bgcolor="#363636" style="
+          <table
+            align="center"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="body363"
+            width="100%"
+            bgcolor="#363636"
+            style="
               background-color: rgb(54, 54, 54);
               background-image: url(https://mcusercontent.com/625cee219b58214c283d2209e/images/af6a09e0-8ea4-a5ec-0131-16ca1ef6a74f.jpg);
               background-position: 50% 100%;
               background-size: cover;
               max-width: 800px;
-            " data-bg="bg-photo1">
+            "
+            data-bg="bg-photo1"
+          >
             <tr>
               <td>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td height="135"></td>
                   </tr>
@@ -437,7 +583,12 @@
 
                   <!-- Content -->
                   <tr>
-                    <td align="left" data-color="module2_text1" data-size="module2_text1" mc:edit="ab5" style="
+                    <td
+                      align="left"
+                      data-color="module2_text1"
+                      data-size="module2_text1"
+                      mc:edit="ab5"
+                      style="
                         color: rgb(246, 237, 236);
                         font-family: 'Roboto', Arial, Helvetica, sans-serif;
                         font-size: 24px;
@@ -445,12 +596,18 @@
                         line-height: 30.6px;
                         text-transform: uppercase;
                         letter-spacing: 1px;
-                      ">
+                      "
+                    >
                       <span style="color: #ffffff">UM DESTINO A SEGUIR...</span>
                     </td>
                   </tr>
                   <tr>
-                    <td align="left" data-color="module2_text2" data-size="module2_text2" mc:edit="ab6" style="
+                    <td
+                      align="left"
+                      data-color="module2_text2"
+                      data-size="module2_text2"
+                      mc:edit="ab6"
+                      style="
                         color: rgb(255, 255, 255);
                         font-family: 'Roboto', Arial, Helvetica, sans-serif;
                         font-size: 36px;
@@ -458,7 +615,9 @@
                         line-height: 42.6px;
                         text-transform: uppercase;
                         letter-spacing: 1px;
-                      " valign="top">
+                      "
+                      valign="top"
+                    >
                       A CAPETOWN
                     </td>
                   </tr>
@@ -466,24 +625,55 @@
 
                   <tr>
                     <td style="padding-top: 33px" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" height="45" width="130">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        height="45"
+                        width="130"
+                      >
                         <tr>
                           <td valign="top">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" height="45" style="background-color: #e53712" width="130">
+                            <table
+                              align="center"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              height="45"
+                              style="background-color: #e53712"
+                              width="130"
+                            >
                               <tr>
-                                <td align="center" data-color="module2_text3" data-size="module2_text3" height="35" mc:edit="ab7" style="
+                                <td
+                                  align="center"
+                                  data-color="module2_text3"
+                                  data-size="module2_text3"
+                                  height="35"
+                                  mc:edit="ab7"
+                                  style="
                                     color: rgb(255, 255, 255);
                                     font-family: 'Roboto', Arial, Helvetica,
                                       Arial, Helvetica, sans-serif;
                                     font-size: 13.2167px;
                                     font-weight: 400;
                                     line-height: 19.8333px;
-                                  " valign="middle">
-                                  <a data-color="module2_text3" href="#" style="
+                                  "
+                                  valign="middle"
+                                >
+                                  <a
+                                    data-color="module2_text3"
+                                    href="#"
+                                    style="
                                       color: rgb(255, 255, 255);
                                       text-decoration: none;
                                       text-transform: uppercase;
-                                    ">V</a><a href="http://www.taag.com/pt/" target="_blank">AMOS JUNTOS
+                                    "
+                                    >V</a
+                                  ><a
+                                    href="http://www.taag.com/pt/"
+                                    target="_blank"
+                                    >AMOS JUNTOS
                                   </a>
                                 </td>
                               </tr>
@@ -511,28 +701,68 @@
     <!-- End module2 -->
 
     <!-- Start module7 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module7" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module7"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#e53712" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyED3" style="background-color: #e53712; max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#e53712"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyED3"
+            style="background-color: #e53712; max-width: 800px"
+            width="100%"
+          >
             <tr>
               <td height="65"></td>
             </tr>
             <tr>
               <td>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td>
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="600">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="600"
+                      >
                         <!-- Content -->
 
                         <tr>
-                          <td align="left" data-color="module7_text1" data-size="module7_text1" mc:edit="ab34" style="
+                          <td
+                            align="left"
+                            data-color="module7_text1"
+                            data-size="module7_text1"
+                            mc:edit="ab34"
+                            style="
                               color: rgb(255, 255, 255);
                               font-family: 'Roboto', Arial, Helvetica,
                                 sans-serif;
@@ -541,13 +771,20 @@
                               line-height: 24.6px;
                               text-transform: uppercase;
                               letter-spacing: 1px;
-                            " valign="top">
+                            "
+                            valign="top"
+                          >
                             A grande Capetown
                           </td>
                         </tr>
                         <!-- End Content -->
                         <tr>
-                          <td align="left" data-color="module7_text2" data-size="module7_text2" mc:edit="ab35" style="
+                          <td
+                            align="left"
+                            data-color="module7_text2"
+                            data-size="module7_text2"
+                            mc:edit="ab35"
+                            style="
                               color: rgb(255, 255, 255);
                               font-family: 'Open Sans', Arial, Helvetica,
                                 sans-serif;
@@ -555,7 +792,9 @@
                               font-weight: 400;
                               line-height: 19.8333px;
                               padding-top: 15px;
-                            " valign="top">
+                            "
+                            valign="top"
+                          >
                             Claro! Cape Town &eacute; uma cidade incrivelmente
                             bela e cheia de vida, situada na costa sul da
                             &Aacute;frica do Sul. Com vistas espetaculares do
@@ -564,8 +803,8 @@
                             apaixonar por sua paisagem deslumbrante. Al&eacute;m
                             disso, a cultura vibrante e a diversidade de
                             comunidades locais tornam Cape Town um lugar ainda
-                            mais especial.<br>
-                            <br>
+                            mais especial.<br />
+                            <br />
                             Se voc&ecirc; estiver procurando uma aventura
                             emocionante e enriquecedora, Cape Town &eacute; o
                             lugar certo para voc&ecirc;!
@@ -588,35 +827,70 @@
     </table>
     <!-- End module7 -->
 
-
     <!-- Start module13 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module13" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module13"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#e53712" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyFD3" style="background-image: url(https://mcusercontent.com/625cee219b58214c283d2209e/images/2cffbd89-f534-c2dc-19c8-78dfefe64a3a.png); max-width: 800px; background-size: cover; background-position: center;" width="100%">
+          <table
+            align="center"
+            bgcolor="#e53712"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyFD3"
+            style="
+              background-image: url(https://mcusercontent.com/625cee219b58214c283d2209e/images/2cffbd89-f534-c2dc-19c8-78dfefe64a3a.png);
+              max-width: 800px;
+              background-size: cover;
+              background-position: center;
+            "
+            width="100%"
+          >
             <tr>
               <td height="65"></td>
             </tr>
             <tr>
               <td>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
-                    <td>
-                    
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="table1">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="600"
+                        class="table1"
+                      >
                         <tr>
-                          <td style="padding-top: 32px" valign="top">
-                            
-                          </td>
+                          <td style="padding-top: 32px" valign="top"></td>
                         </tr>
                       </table>
                     </td>
@@ -635,37 +909,106 @@
     <!-- End module13 -->
 
     <!-- Start module3 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module3" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module3"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#e53712" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="body8" style="background-color: #00a4b9; max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#e53712"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="body8"
+            style="background-color: #00a4b9; max-width: 800px"
+            width="100%"
+          >
             <tr>
               <td height="65"></td>
             </tr>
             <tr>
               <td valign="top">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table2" width="320">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table2"
+                        width="320"
+                      >
                         <tr>
                           <td>
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="280">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="280"
+                            >
                               <tr>
                                 <td class="td_600" valign="top">
                                   <!-- images -->
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table3" width="55">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table3"
+                                    width="55"
+                                  >
                                     <tr>
                                       <td valign="top" style="padding-top: 5px">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="33">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          class="table1"
+                                          width="33"
+                                        >
                                           <tr>
                                             <td align="center" valign="top">
-                                              <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/30f723e6-9794-6da4-dd05-678e4f5a7911.png" alt="" border="0" style="height: 20px; width: 20px; margin: 0; padding: 0;" width="20" height="20" mc:edit="ph2">
+                                              <img
+                                                src="https://mcusercontent.com/625cee219b58214c283d2209e/images/30f723e6-9794-6da4-dd05-678e4f5a7911.png"
+                                                alt=""
+                                                border="0"
+                                                style="
+                                                  height: 20px;
+                                                  width: 20px;
+                                                  margin: 0;
+                                                  padding: 0;
+                                                "
+                                                width="20"
+                                                height="20"
+                                                mc:edit="ph2"
+                                              />
                                             </td>
                                           </tr>
                                         </table>
@@ -675,10 +1018,23 @@
                                   <!-- End images -->
                                 </td>
                                 <td class="td_600" valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="225">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table1"
+                                    width="225"
+                                  >
                                     <!-- Content -->
                                     <tr>
-                                      <td align="left" class="text-center" data-color="module3_text1" data-size="module3_text1" mc:edit="ab8" style="
+                                      <td
+                                        align="left"
+                                        class="text-center"
+                                        data-color="module3_text1"
+                                        data-size="module3_text1"
+                                        mc:edit="ab8"
+                                        style="
                                           color: rgb(255, 255, 255);
                                           font-family: 'Roboto', sans-serif;
                                           font-size: 18px;
@@ -686,7 +1042,9 @@
                                           line-height: 24.6px;
                                           text-transform: uppercase;
                                           letter-spacing: 1px;
-                                        " valign="top">
+                                        "
+                                        valign="top"
+                                      >
                                         A GASTRONOMIA
                                       </td>
                                     </tr>
@@ -694,14 +1052,22 @@
 
                                     <!-- Content -->
                                     <tr>
-                                      <td align="left" class="text-center" data-color="module3_text2" data-size="module3_text2" mc:edit="ab9" style="
+                                      <td
+                                        align="left"
+                                        class="text-center"
+                                        data-color="module3_text2"
+                                        data-size="module3_text2"
+                                        mc:edit="ab9"
+                                        style="
                                           color: rgb(255, 255, 255);
                                           font-family: 'Open Sans', sans-serif;
                                           font-size: 13.2167px;
                                           font-weight: 400;
                                           line-height: 19.8333px;
                                           padding-top: 15px;
-                                        " valign="top"></td>
+                                        "
+                                        valign="top"
+                                      ></td>
                                     </tr>
                                     <!-- End Content -->
                                   </table>
@@ -713,17 +1079,51 @@
                       </table>
                     </td>
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="280">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="280"
+                      >
                         <tr>
                           <td class="td_600" valign="top">
                             <!-- images -->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table3" width="55">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table3"
+                              width="55"
+                            >
                               <tr>
                                 <td valign="top" style="padding-top: 5px">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="33">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table1"
+                                    width="33"
+                                  >
                                     <tr>
                                       <td align="center" valign="top">
-                                        <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/196982ac-7700-0f41-4f8a-6e4183276822.png" alt="" border="0" style="height: 20px; width: 20px; margin: 0; padding: 0;" width="20" height="20" mc:edit="ph3">
+                                        <img
+                                          src="https://mcusercontent.com/625cee219b58214c283d2209e/images/196982ac-7700-0f41-4f8a-6e4183276822.png"
+                                          alt=""
+                                          border="0"
+                                          style="
+                                            height: 20px;
+                                            width: 20px;
+                                            margin: 0;
+                                            padding: 0;
+                                          "
+                                          width="20"
+                                          height="20"
+                                          mc:edit="ph3"
+                                        />
                                       </td>
                                     </tr>
                                   </table>
@@ -734,9 +1134,22 @@
                           </td>
                           <td class="td_600" valign="top">
                             <!-- Content -->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="225">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="225"
+                            >
                               <tr>
-                                <td align="left" class="text-center" data-color="module3_text1" data-size="module3_text1" mc:edit="ab10" style="
+                                <td
+                                  align="left"
+                                  class="text-center"
+                                  data-color="module3_text1"
+                                  data-size="module3_text1"
+                                  mc:edit="ab10"
+                                  style="
                                     color: rgb(255, 255, 255);
                                     font-family: 'Roboto', sans-serif;
                                     font-size: 18px;
@@ -744,7 +1157,9 @@
                                     line-height: 24.6px;
                                     text-transform: uppercase;
                                     letter-spacing: 1px;
-                                  " valign="top">
+                                  "
+                                  valign="top"
+                                >
                                   A M&Uacute;SICA
                                 </td>
                               </tr>
@@ -752,14 +1167,22 @@
 
                               <!-- Content -->
                               <tr>
-                                <td align="left" class="text-center" data-color="module3_text2" data-size="module3_text2" mc:edit="ab11" style="
+                                <td
+                                  align="left"
+                                  class="text-center"
+                                  data-color="module3_text2"
+                                  data-size="module3_text2"
+                                  mc:edit="ab11"
+                                  style="
                                     color: rgb(255, 255, 255);
                                     font-family: 'Open Sans', sans-serif;
                                     font-size: 13.2167px;
                                     font-weight: 400;
                                     line-height: 19.8333px;
                                     padding-top: 15px;
-                                  " valign="top"></td>
+                                  "
+                                  valign="top"
+                                ></td>
                               </tr>
                               <!-- End Content -->
                             </table>
@@ -774,23 +1197,71 @@
 
             <tr>
               <td valign="top" style="padding-top: 25px">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table2" width="320">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table2"
+                        width="320"
+                      >
                         <tr>
                           <td>
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="280">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="280"
+                            >
                               <tr>
                                 <td class="td_600" valign="top">
                                   <!-- images -->
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table3" width="55">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table3"
+                                    width="55"
+                                  >
                                     <tr>
                                       <td valign="top" style="padding-top: 5px">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="33">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          class="table1"
+                                          width="33"
+                                        >
                                           <tr>
                                             <td align="center" valign="top">
-                                              <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/f47b631a-2e19-9338-4b52-dc6c2f4151c3.png" alt="" border="0" style="height: 20px; width: 20px; margin: 0; padding: 0;" width="20" height="20" mc:edit="ph4">
+                                              <img
+                                                src="https://mcusercontent.com/625cee219b58214c283d2209e/images/f47b631a-2e19-9338-4b52-dc6c2f4151c3.png"
+                                                alt=""
+                                                border="0"
+                                                style="
+                                                  height: 20px;
+                                                  width: 20px;
+                                                  margin: 0;
+                                                  padding: 0;
+                                                "
+                                                width="20"
+                                                height="20"
+                                                mc:edit="ph4"
+                                              />
                                             </td>
                                           </tr>
                                         </table>
@@ -800,11 +1271,24 @@
                                   <!-- End images -->
                                 </td>
                                 <td class="td_600" valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="225">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table1"
+                                    width="225"
+                                  >
                                     <!-- Content -->
 
                                     <tr>
-                                      <td align="left" class="text-center" data-color="module3_text1" data-size="module3_text1" mc:edit="ab12" style="
+                                      <td
+                                        align="left"
+                                        class="text-center"
+                                        data-color="module3_text1"
+                                        data-size="module3_text1"
+                                        mc:edit="ab12"
+                                        style="
                                           color: rgb(255, 255, 255);
                                           font-family: 'Roboto', sans-serif;
                                           font-size: 18px;
@@ -812,7 +1296,9 @@
                                           line-height: 24.6px;
                                           text-transform: uppercase;
                                           letter-spacing: 1px;
-                                        " valign="top">
+                                        "
+                                        valign="top"
+                                      >
                                         A DAN&Ccedil;A
                                       </td>
                                     </tr>
@@ -820,14 +1306,22 @@
 
                                     <!-- Content -->
                                     <tr>
-                                      <td align="left" class="text-center" data-color="module3_text2" data-size="module3_text2" mc:edit="ab13" style="
+                                      <td
+                                        align="left"
+                                        class="text-center"
+                                        data-color="module3_text2"
+                                        data-size="module3_text2"
+                                        mc:edit="ab13"
+                                        style="
                                           color: rgb(255, 255, 255);
                                           font-family: 'Open Sans', sans-serif;
                                           font-size: 13.2167px;
                                           font-weight: 400;
                                           line-height: 19.8333px;
                                           padding-top: 15px;
-                                        " valign="top"></td>
+                                        "
+                                        valign="top"
+                                      ></td>
                                     </tr>
                                     <!-- End Content -->
                                   </table>
@@ -839,17 +1333,51 @@
                       </table>
                     </td>
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="280">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="280"
+                      >
                         <tr>
                           <td class="td_600" valign="top">
                             <!-- images -->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table3" width="55">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table3"
+                              width="55"
+                            >
                               <tr>
                                 <td valign="top" style="padding-top: 5px">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="45">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table1"
+                                    width="45"
+                                  >
                                     <tr>
                                       <td align="center" valign="top">
-                                        <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/83ce496d-d111-34db-b216-5a107fcc27d7.png" alt="" border="0" style="height: 20px; width: 20px; margin: 0; padding: 0;" width="20" height="20" mc:edit="ph5">
+                                        <img
+                                          src="https://mcusercontent.com/625cee219b58214c283d2209e/images/83ce496d-d111-34db-b216-5a107fcc27d7.png"
+                                          alt=""
+                                          border="0"
+                                          style="
+                                            height: 20px;
+                                            width: 20px;
+                                            margin: 0;
+                                            padding: 0;
+                                          "
+                                          width="20"
+                                          height="20"
+                                          mc:edit="ph5"
+                                        />
                                       </td>
                                     </tr>
                                   </table>
@@ -860,9 +1388,22 @@
                           </td>
                           <td class="td_600" valign="top">
                             <!-- Content -->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="225">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="225"
+                            >
                               <tr>
-                                <td align="left" class="text-center" data-color="module3_text1" data-size="module3_text1" mc:edit="ab14" style="
+                                <td
+                                  align="left"
+                                  class="text-center"
+                                  data-color="module3_text1"
+                                  data-size="module3_text1"
+                                  mc:edit="ab14"
+                                  style="
                                     color: rgb(255, 255, 255);
                                     font-family: 'Roboto', sans-serif;
                                     font-size: 18px;
@@ -870,7 +1411,9 @@
                                     line-height: 24.6px;
                                     text-transform: uppercase;
                                     letter-spacing: 1px;
-                                  " valign="top">
+                                  "
+                                  valign="top"
+                                >
                                   EVENTOS
                                 </td>
                               </tr>
@@ -878,14 +1421,22 @@
 
                               <!-- Content -->
                               <tr>
-                                <td align="left" class="text-center" data-color="module3_text2" data-size="module3_text2" mc:edit="ab15" style="
+                                <td
+                                  align="left"
+                                  class="text-center"
+                                  data-color="module3_text2"
+                                  data-size="module3_text2"
+                                  mc:edit="ab15"
+                                  style="
                                     color: rgb(255, 255, 255);
                                     font-family: 'Open Sans', sans-serif;
                                     font-size: 13.2167px;
                                     font-weight: 400;
                                     line-height: 19.8333px;
                                     padding-top: 15px;
-                                  " valign="top"></td>
+                                  "
+                                  valign="top"
+                                ></td>
                               </tr>
                               <!-- End Content -->
                             </table>
@@ -908,28 +1459,83 @@
     <!-- End module3 -->
 
     <!-- Start module4 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module4" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module4"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyFFF" style="background-color: rgb(255, 255, 255); max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#FFFFFF"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyFFF"
+            style="background-color: rgb(255, 255, 255); max-width: 800px"
+            width="100%"
+          >
             <tr>
               <td valign="top">
-                <table align="left" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="700">
+                <table
+                  align="left"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="700"
+                >
                   <tr>
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="410">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="410"
+                      >
                         <tr>
                           <td valign="top">
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="380">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="380"
+                            >
                               <!-- Image -->
                               <tr>
                                 <td valign="top">
-                                  <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/d0cf8f38-59da-1acf-1182-dd996c73c623.jpg" alt="" border="0" style="height: 562px; width: 375px; margin: 0; padding: 0;" width="375" height="562" mc:edit="ph6">
+                                  <img
+                                    src="https://mcusercontent.com/625cee219b58214c283d2209e/images/d0cf8f38-59da-1acf-1182-dd996c73c623.jpg"
+                                    alt=""
+                                    border="0"
+                                    style="
+                                      height: 562px;
+                                      width: 375px;
+                                      margin: 0;
+                                      padding: 0;
+                                    "
+                                    width="375"
+                                    height="562"
+                                    mc:edit="ph6"
+                                  />
                                 </td>
                               </tr>
                               <!-- End Image -->
@@ -940,15 +1546,41 @@
                     </td>
 
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="290">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="290"
+                      >
                         <tr>
                           <td style="padding-top: 64px" valign="top">
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="290">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="290"
+                            >
                               <tr>
                                 <td valign="top" class="padding-left">
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="290" class="table1">
+                                  <table
+                                    align="center"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="290"
+                                    class="table1"
+                                  >
                                     <tr>
-                                      <td align="left" data-color="module4_text1" data-size="module4_text1" mc:edit="ab16" style="
+                                      <td
+                                        align="left"
+                                        data-color="module4_text1"
+                                        data-size="module4_text1"
+                                        mc:edit="ab16"
+                                        style="
                                           color: rgb(51, 51, 51);
                                           font-family: 'Roboto', Arial,
                                             Helvetica, sans-serif;
@@ -957,28 +1589,49 @@
                                           line-height: 30.6px;
                                           text-transform: uppercase;
                                           letter-spacing: 1px;
-                                        " valign="top"><span style="color:#808080">M&uacute;sica/Evento<br>
-O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
+                                        "
+                                        valign="top"
+                                      >
+                                        <span style="color: #808080"
+                                          >M&uacute;sica/Evento<br />
+                                          O FESTIVAL DE JAZZ EM CAPETOWN
+                                        </span>
+                                      </td>
                                     </tr>
                                     <tr>
-                                      <td style="
+                                      <td
+                                        style="
                                           padding-bottom: 20px;
                                           padding-top: 5px;
-                                        " valign="top">
-                                        <table align="left" bgcolor="#C9C9C9" border="0" cellpadding="0" cellspacing="0" data-bgcolor="module4_line" height="3" style="
+                                        "
+                                        valign="top"
+                                      >
+                                        <table
+                                          align="left"
+                                          bgcolor="#C9C9C9"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          data-bgcolor="module4_line"
+                                          height="3"
+                                          style="
                                             background-color: rgb(
                                               101,
                                               101,
                                               101
                                             );
-                                          " width="30">
+                                          "
+                                          width="30"
+                                        >
                                           <!-- Line -->
                                           <tr>
-                                            <td style="
+                                            <td
+                                              style="
                                                 font-height: 0px;
                                                 font-size: 0px;
                                                 padding-top: 1px;
-                                              ">
+                                              "
+                                            >
                                               &nbsp;
                                             </td>
                                           </tr>
@@ -987,14 +1640,21 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                       </td>
                                     </tr>
                                     <tr>
-                                      <td align="left" data-color="module4_text2" data-size="module4_text2" mc:edit="ab17" style="
+                                      <td
+                                        align="left"
+                                        data-color="module4_text2"
+                                        data-size="module4_text2"
+                                        mc:edit="ab17"
+                                        style="
                                           color: rgb(51, 51, 51);
                                           font-family: 'Open Sans', Arial,
                                             Helvetica, sans-serif;
                                           font-size: 13.2167px;
                                           font-weight: 400;
                                           line-height: 19.8333px;
-                                        " valign="top">
+                                        "
+                                        valign="top"
+                                      >
                                         Este &eacute; o maior festival de jazz
                                         da &Aacute;frica e atrai m&uacute;sicos
                                         de todo o mundo para se apresentarem na
@@ -1003,8 +1663,18 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     </tr>
 
                                     <tr>
-                                      <td style="padding-top: 25px" valign="top">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="290" class="table1">
+                                      <td
+                                        style="padding-top: 25px"
+                                        valign="top"
+                                      >
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="290"
+                                          class="table1"
+                                        >
                                           <tr>
                                             <td valign="middle"></td>
                                           </tr>
@@ -1015,22 +1685,46 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     <!-- End Content -->
 
                                     <tr>
-                                      <td style="
+                                      <td
+                                        style="
                                           padding-top: 35px;
                                           padding-bottom: 70px;
-                                        " valign="top">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" height="45" width="130">
+                                        "
+                                        valign="top"
+                                      >
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          height="45"
+                                          width="130"
+                                        >
                                           <tr>
                                             <td valign="top">
-                                              <table align="center" border="0" cellpadding="0" cellspacing="0" height="45" style="
+                                              <table
+                                                align="center"
+                                                border="0"
+                                                cellpadding="0"
+                                                cellspacing="0"
+                                                height="45"
+                                                style="
                                                   background-color: rgb(
                                                     237,
                                                     51,
                                                     37
                                                   );
-                                                " width="130">
+                                                "
+                                                width="130"
+                                              >
                                                 <tr>
-                                                  <td align="center" data-color="module4_text4" data-size="module4_text4" height="35" mc:edit="ab21" style="
+                                                  <td
+                                                    align="center"
+                                                    data-color="module4_text4"
+                                                    data-size="module4_text4"
+                                                    height="35"
+                                                    mc:edit="ab21"
+                                                    style="
                                                       color: rgb(255, 255, 255);
                                                       font-family: 'Roboto',
                                                         Arial, Helvetica, Arial,
@@ -1038,7 +1732,9 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                                       font-size: 13.2167px;
                                                       font-weight: 400;
                                                       line-height: 19.8333px;
-                                                    " valign="middle">
+                                                    "
+                                                    valign="middle"
+                                                  >
                                                     VAMOS JUNTOS
                                                   </td>
                                                 </tr>
@@ -1068,18 +1764,46 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
     <!-- End module4 -->
 
     <!-- Start module14 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module14" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module14"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyFFF" style="background-color: rgb(255, 255, 255); max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#FFFFFF"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyFFF"
+            style="background-color: rgb(255, 255, 255); max-width: 800px"
+            width="100%"
+          >
             <tr>
               <td>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <!-- Content -->
                   <tr>
                     <td height="70"></td>
@@ -1087,14 +1811,34 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
 
                   <tr>
                     <td>
-                      <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                      <table
+                        align="center"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table-inner"
+                        width="600"
+                      >
                         <!-- Content -->
                         <tr>
                           <td class="td_600" valign="top">
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="295" style="padding-right: 20px;">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="295"
+                              style="padding-right: 20px"
+                            >
                               <!-- Content -->
                               <tr>
-                                <td align="left" data-color="module14_text1" data-size="module14_text1" mc:edit="ab73" style="
+                                <td
+                                  align="left"
+                                  data-color="module14_text1"
+                                  data-size="module14_text1"
+                                  mc:edit="ab73"
+                                  style="
                                     color: rgb(51, 51, 51);
                                     font-family: 'Roboto', Arial, Helvetica,
                                       sans-serif;
@@ -1103,20 +1847,37 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     line-height: 30.6px;
                                     text-transform: uppercase;
                                     letter-spacing: 1px;
-                                  " valign="top">
+                                  "
+                                  valign="top"
+                                >
                                   carnival cape town
                                 </td>
                               </tr>
                               <tr>
-                                <td style="padding-bottom: 20px; padding-top: 5px" valign="top">
-                                  <table align="left" bgcolor="#656565" border="0" cellpadding="0" cellspacing="0" data-bgcolor="line656" height="3" style="background-color: rgb(101, 101, 101)" width="30">
+                                <td
+                                  style="padding-bottom: 20px; padding-top: 5px"
+                                  valign="top"
+                                >
+                                  <table
+                                    align="left"
+                                    bgcolor="#656565"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    data-bgcolor="line656"
+                                    height="3"
+                                    style="background-color: rgb(101, 101, 101)"
+                                    width="30"
+                                  >
                                     <!-- Line -->
                                     <tr>
-                                      <td style="
+                                      <td
+                                        style="
                                           font-height: 0px;
                                           font-size: 0px;
                                           padding-top: 1px;
-                                        ">
+                                        "
+                                      >
                                         &nbsp;
                                       </td>
                                     </tr>
@@ -1125,27 +1886,66 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                 </td>
                               </tr>
                               <tr>
-                                <td align="left" data-color="module14_text2" data-size="module14_text2" mc:edit="ab74" style="
+                                <td
+                                  align="left"
+                                  data-color="module14_text2"
+                                  data-size="module14_text2"
+                                  mc:edit="ab74"
+                                  style="
                                     color: rgb(51, 51, 51);
                                     font-family: 'open sans', Arial, Helvetica,
                                       sans-serif;
                                     font-size: 13.2167px;
                                     font-weight: 400;
                                     line-height: 19.8333px;
-                                  " valign="top">O Cape Town Minstrel Carnival, tamb&eacute;m conhecido como &quot;Kaapse Klopse&quot;, &eacute; um dos eventos mais antigos e tradicionais da cidade. O evento acontece todo ano no dia 2 de janeiro e &eacute; uma celebra&ccedil;&atilde;o alegre e colorida da cultura afro-americana.</td>
+                                  "
+                                  valign="top"
+                                >
+                                  O Cape Town Minstrel Carnival, tamb&eacute;m
+                                  conhecido como &quot;Kaapse Klopse&quot;,
+                                  &eacute; um dos eventos mais antigos e
+                                  tradicionais da cidade. O evento acontece todo
+                                  ano no dia 2 de janeiro e &eacute; uma
+                                  celebra&ccedil;&atilde;o alegre e colorida da
+                                  cultura afro-americana.
+                                </td>
                               </tr>
                               <!-- End Content -->
                               <tr>
-                                <td style="
+                                <td
+                                  style="
                                     padding-top: 35px;
                                     padding-bottom: 70px;
-                                  " valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" height="45" width="130">
+                                  "
+                                  valign="top"
+                                >
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    height="45"
+                                    width="130"
+                                  >
                                     <tr>
                                       <td valign="top">
-                                        <table align="center" border="0" cellpadding="0" cellspacing="0" height="45" style="background-color: #e53712" width="130">
+                                        <table
+                                          align="center"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          height="45"
+                                          style="background-color: #e53712"
+                                          width="130"
+                                        >
                                           <tr>
-                                            <td align="center" data-color="module14_text3" data-size="module14_text3" height="35" mc:edit="ab75" style="
+                                            <td
+                                              align="center"
+                                              data-color="module14_text3"
+                                              data-size="module14_text3"
+                                              height="35"
+                                              mc:edit="ab75"
+                                              style="
                                                 color: rgb(255, 255, 255);
                                                 font-family: 'Roboto', Arial,
                                                   Helvetica, Arial, Helvetica,
@@ -1153,13 +1953,19 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                                 font-size: 13.2167px;
                                                 font-weight: 400;
                                                 line-height: 19.8333px;
-                                              " valign="middle">
-                                              <a data-color="module14_text3" href="#" style="
+                                              "
+                                              valign="middle"
+                                            >
+                                              <a
+                                                data-color="module14_text3"
+                                                href="#"
+                                                style="
                                                   color: rgb(255, 255, 255);
                                                   text-decoration: none;
                                                   text-transform: uppercase;
                                                   letter-spacing: 0.5px;
-                                                ">VAMOS JUNTOS
+                                                "
+                                                >VAMOS JUNTOS
                                               </a>
                                             </td>
                                           </tr>
@@ -1174,14 +1980,41 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                           </td>
 
                           <td class="td_600">
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="305">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="305"
+                            >
                               <tr>
                                 <td>
-                                  <table align="right" border="0" cellpadding="0" cellspacing="0" class="tablep_p2" width="275">
+                                  <table
+                                    align="right"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="tablep_p2"
+                                    width="275"
+                                  >
                                     <!-- Image -->
                                     <tr>
                                       <td align="left" valign="top">
-                                        <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/0e6d6a6c-f963-8b04-4c31-1b50456acc28.png" alt="carnaval" border="0" style="height: 428px; width: 340px; margin: 0; padding: 0;" width="340" height="428" mc:edit="ph30">
+                                        <img
+                                          src="https://mcusercontent.com/625cee219b58214c283d2209e/images/0e6d6a6c-f963-8b04-4c31-1b50456acc28.png"
+                                          alt="carnaval"
+                                          border="0"
+                                          style="
+                                            height: 428px;
+                                            width: 340px;
+                                            margin: 0;
+                                            padding: 0;
+                                          "
+                                          width="340"
+                                          height="428"
+                                          mc:edit="ph30"
+                                        />
                                       </td>
                                     </tr>
                                     <!-- End Image -->
@@ -1203,74 +2036,151 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
     </table>
     <!-- End module14 -->
 
-     <!-- Start module13 -->
-     <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module13" data-thumb="" style="
-     background-color: rgb(33, 33, 33);
-     opacity: 1;
-     position: relative;
-     z-index: 0;
-   " width="100%">
-   <tr>
-     <td>
-       <table align="center" bgcolor="#e53712" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyFD3" style="background-image: url(https://mcusercontent.com/625cee219b58214c283d2209e/images/2cffbd89-f534-c2dc-19c8-78dfefe64a3a.png); max-width: 800px; background-size: cover; background-position: center;" width="100%">
-         <tr>
-           <td height="65"></td>
-         </tr>
-         <tr>
-           <td>
-             <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
-               <tr>
-                 <td>
-                 
-                 </td>
-               </tr>
-               <tr>
-                 <td valign="top">
-                   <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="table1">
-                     <tr>
-                       <td style="padding-top: 32px" valign="top">
-                         
-                       </td>
-                     </tr>
-                   </table>
-                 </td>
-               </tr>
-
-               <tr>
-                 <td height="70"></td>
-               </tr>
-             </table>
-           </td>
-         </tr>
-       </table>
-     </td>
-   </tr>
- </table>
- <!-- End module13 -->
-
-    <!-- Start module6 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module6" data-thumb="" style="
+    <!-- Start module13 -->
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module13"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyFFF" style="background-color: rgb(255, 255, 255); max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#e53712"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyFD3"
+            style="
+              background-image: url(https://mcusercontent.com/625cee219b58214c283d2209e/images/2cffbd89-f534-c2dc-19c8-78dfefe64a3a.png);
+              max-width: 800px;
+              background-size: cover;
+              background-position: center;
+            "
+            width="100%"
+          >
+            <tr>
+              <td height="65"></td>
+            </tr>
             <tr>
               <td>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
+                  <tr>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td valign="top">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="600"
+                        class="table1"
+                      >
+                        <tr>
+                          <td style="padding-top: 32px" valign="top"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td height="70"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- End module13 -->
+
+    <!-- Start module6 -->
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module6"
+      data-thumb=""
+      style="
+        background-color: rgb(33, 33, 33);
+        opacity: 1;
+        position: relative;
+        z-index: 0;
+      "
+      width="100%"
+    >
+      <tr>
+        <td>
+          <table
+            align="center"
+            bgcolor="#FFFFFF"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyFFF"
+            style="background-color: rgb(255, 255, 255); max-width: 800px"
+            width="100%"
+          >
+            <tr>
+              <td>
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <!-- Content -->
                   <tr>
                     <td height="64"></td>
                   </tr>
                   <tr>
                     <td valign="top">
-                      <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                      <table
+                        align="center"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table-inner"
+                        width="600"
+                      >
                         <!-- Content -->
                         <tr>
-                          <td align="center" class="text-center" data-color="module6_text1" data-size="module6_text1" mc:edit="ab29" style="
+                          <td
+                            align="center"
+                            class="text-center"
+                            data-color="module6_text1"
+                            data-size="module6_text1"
+                            mc:edit="ab29"
+                            style="
                               color: rgb(51, 51, 51);
                               font-family: 'Roboto', Arial, Helvetica,
                                 sans-serif;
@@ -1279,7 +2189,9 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               line-height: 30.6px;
                               text-transform: uppercase;
                               letter-spacing: 1px;
-                            " valign="top">
+                            "
+                            valign="top"
+                          >
                             Sabias que...?
                           </td>
                         </tr>
@@ -1288,15 +2200,30 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                     </td>
                   </tr>
                   <tr>
-                    <td style="padding-bottom: 20px; padding-top: 5px" valign="top">
-                      <table align="center" bgcolor="#656565" border="0" cellpadding="0" cellspacing="0" data-bgcolor="line656" height="3" style="background-color: rgb(101, 101, 101)" width="30">
+                    <td
+                      style="padding-bottom: 20px; padding-top: 5px"
+                      valign="top"
+                    >
+                      <table
+                        align="center"
+                        bgcolor="#656565"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        data-bgcolor="line656"
+                        height="3"
+                        style="background-color: rgb(101, 101, 101)"
+                        width="30"
+                      >
                         <!-- Line -->
                         <tr>
-                          <td style="
+                          <td
+                            style="
                               font-height: 0px;
                               font-size: 0px;
                               padding-top: 1px;
-                            ">
+                            "
+                          >
                             &nbsp;
                           </td>
                         </tr>
@@ -1305,29 +2232,69 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                     </td>
                   </tr>
                   <tr>
-                    <td align="center" data-color="module6_text2" data-size="module6_text2" mc:edit="ab30" style="
+                    <td
+                      align="center"
+                      data-color="module6_text2"
+                      data-size="module6_text2"
+                      mc:edit="ab30"
+                      style="
                         color: rgb(51, 51, 51);
                         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
                         font-size: 13.2167px;
                         font-weight: 400;
                         line-height: 19.8333px;
                         padding-bottom: 50px;
-                      "></td>
+                      "
+                    ></td>
                   </tr>
                   <tr>
                     <td>
-                      <table align="center" border="0" cellpadding="0" cellspacing="0" class="table1" width="600">
+                      <table
+                        align="center"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="600"
+                      >
                         <!-- Content -->
                         <tr>
                           <td class="td_600">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="table1" width="315">
+                            <table
+                              align="center"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="315"
+                            >
                               <tr>
                                 <td>
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table2" width="285">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table2"
+                                    width="285"
+                                  >
                                     <!-- Image -->
                                     <tr>
                                       <td align="center" valign="top">
-                                        <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/f4f99554-6c30-b931-9452-67e0a19875ee.jpg" alt="" border="0" style="height: 480px; width: 360px; margin: 0; padding: 0;" width="360" height="480" mc:edit="ph14">
+                                        <img
+                                          src="https://mcusercontent.com/625cee219b58214c283d2209e/images/f4f99554-6c30-b931-9452-67e0a19875ee.jpg"
+                                          alt=""
+                                          border="0"
+                                          style="
+                                            height: 480px;
+                                            width: 360px;
+                                            margin: 0;
+                                            padding: 0;
+                                          "
+                                          width="360"
+                                          height="480"
+                                          mc:edit="ph14"
+                                        />
                                       </td>
                                     </tr>
                                     <!-- End Image -->
@@ -1337,10 +2304,25 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                             </table>
                           </td>
                           <td class="td_600" valign="top">
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="285" bgcolor="#333" style="background-color: #99d4e9" class="tablep_p2" data-bgcolor="Textbg333">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="285"
+                              bgcolor="#333"
+                              style="background-color: #99d4e9"
+                              class="tablep_p2"
+                              data-bgcolor="Textbg333"
+                            >
                               <!-- Content -->
                               <tr>
-                                <td align="left" data-color="module6_text3" data-size="module6_text3" mc:edit="ab31" style="
+                                <td
+                                  align="left"
+                                  data-color="module6_text3"
+                                  data-size="module6_text3"
+                                  mc:edit="ab31"
+                                  style="
                                     color: rgb(255, 255, 255);
                                     font-family: 'Roboto', Arial, Helvetica,
                                       sans-serif;
@@ -1352,13 +2334,20 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     padding-right: 25px;
                                     text-transform: uppercase;
                                     letter-spacing: 1px;
-                                  " valign="top">
+                                  "
+                                  valign="top"
+                                >
                                   Mais de 321 milh&otilde;es de
                                   QUIL&Oacute;METROS
                                 </td>
                               </tr>
                               <tr>
-                                <td align="left" data-color="module6_text4" data-size="module6_text4" mc:edit="ab32" style="
+                                <td
+                                  align="left"
+                                  data-color="module6_text4"
+                                  data-size="module6_text4"
+                                  mc:edit="ab32"
+                                  style="
                                     color: rgb(255, 255, 255);
                                     font-family: 'Open Sans', Arial, Helvetica,
                                       sans-serif;
@@ -1368,7 +2357,9 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     padding-top: 15px;
                                     padding-left: 25px;
                                     padding-right: 25px;
-                                  " valign="top">
+                                  "
+                                  valign="top"
+                                >
                                   Para ti,, este ano realizamos 6000 voos,
                                   viajamos 321 milh&otilde;es de
                                   quil&ocirc;metros e transportamos 600.000
@@ -1377,17 +2368,41 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               </tr>
                               <!-- End Content -->
                               <tr>
-                                <td style="
+                                <td
+                                  style="
                                     padding-top: 35px;
                                     padding-bottom: 35px;
                                     padding-left: 25px;
-                                  " valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" height="45" width="130">
+                                  "
+                                  valign="top"
+                                >
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    height="45"
+                                    width="130"
+                                  >
                                     <tr>
                                       <td valign="top">
-                                        <table align="center" border="0" cellpadding="0" cellspacing="0" height="45" style="background-color: #e53712" width="130">
+                                        <table
+                                          align="center"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          height="45"
+                                          style="background-color: #e53712"
+                                          width="130"
+                                        >
                                           <tr>
-                                            <td align="center" data-color="module6_text5" data-size="module6_text5" height="35" mc:edit="ab33" style="
+                                            <td
+                                              align="center"
+                                              data-color="module6_text5"
+                                              data-size="module6_text5"
+                                              height="35"
+                                              mc:edit="ab33"
+                                              style="
                                                 color: rgb(255, 255, 255);
                                                 font-family: 'Roboto', Arial,
                                                   Helvetica, Arial, Helvetica,
@@ -1395,7 +2410,9 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                                 font-size: 13.2167px;
                                                 font-weight: 400;
                                                 line-height: 19.8333px;
-                                              " valign="middle">
+                                              "
+                                              valign="middle"
+                                            >
                                               VAMOS JUNTOS
                                             </td>
                                           </tr>
@@ -1420,43 +2437,103 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
     </table>
     <!-- End module6 -->
 
-   
-
- 
-
     <!-- Start module17 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module17" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module17"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#F5F5F5" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="bodyF5F" style="background-color: rgb(245, 245, 245); max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#F5F5F5"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="bodyF5F"
+            style="background-color: rgb(245, 245, 245); max-width: 800px"
+            width="100%"
+          >
             <tr>
               <td height="70"></td>
             </tr>
 
             <tr>
               <td>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table2" width="315">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table2"
+                        width="315"
+                      >
                         <tr>
                           <td valign="top" align="left">
-                            <img src="https://mcusercontent.com/625cee219b58214c283d2209e/images/a88cb61a-fbd3-5232-8c54-3d52edc15135.png" alt="" border="0" style="height: 360px; width: 360px; margin: 0; padding: 0;" width="360" height="360" mc:edit="ph33">
+                            <img
+                              src="https://mcusercontent.com/625cee219b58214c283d2209e/images/a88cb61a-fbd3-5232-8c54-3d52edc15135.png"
+                              alt=""
+                              border="0"
+                              style="
+                                height: 360px;
+                                width: 360px;
+                                margin: 0;
+                                padding: 0;
+                              "
+                              width="360"
+                              height="360"
+                              mc:edit="ph33"
+                            />
                           </td>
                         </tr>
                       </table>
                     </td>
 
                     <td class="td_600" valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="285" bgcolor="#e53712" style="background-color: #e53712" data-bgcolor="6TextbgED3">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="285"
+                        bgcolor="#e53712"
+                        style="background-color: #e53712"
+                        data-bgcolor="6TextbgED3"
+                      >
                         <!-- Content -->
                         <tr>
-                          <td align="center" class="text-center" data-color="module17_text1" data-size="module17_text1" mc:edit="ab86" style="
+                          <td
+                            align="center"
+                            class="text-center"
+                            data-color="module17_text1"
+                            data-size="module17_text1"
+                            mc:edit="ab86"
+                            style="
                               color: rgb(255, 255, 255);
                               font-family: 'Roboto', Arial, Helvetica,
                                 sans-serif;
@@ -1466,13 +2543,21 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               padding: 25px 25px 15px 25px;
                               text-transform: uppercase;
                               letter-spacing: 1px;
-                            " valign="top">
+                            "
+                            valign="top"
+                          >
                             o amor&nbsp;
                           </td>
                         </tr>
 
                         <tr>
-                          <td align="center" class="text-center" data-color="module17_text2" data-size="module17_text2" mc:edit="ab87" style="
+                          <td
+                            align="center"
+                            class="text-center"
+                            data-color="module17_text2"
+                            data-size="module17_text2"
+                            mc:edit="ab87"
+                            style="
                               color: rgb(255, 255, 255);
                               font-family: 'open sans', Arial, Helvetica,
                                 sans-serif;
@@ -1480,25 +2565,59 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               font-weight: 400;
                               line-height: 19.8333px;
                               padding: 0 25px 0 25px;
-                            " valign="top"><p dir="ltr">O Amor Est&aacute; No Ar de 31 de Janeiro a 10 de Fevereiro.</p>
+                            "
+                            valign="top"
+                          >
+                            <p dir="ltr">
+                              O Amor Est&aacute; No Ar de 31 de Janeiro a 10 de
+                              Fevereiro.
+                            </p>
 
-<p dir="ltr">A pensar em todos os apaixonados, cri&aacute;mos uma promo&ccedil;&atilde;o muito especial.&nbsp;</p>
+                            <p dir="ltr">
+                              A pensar em todos os apaixonados, cri&aacute;mos
+                              uma promo&ccedil;&atilde;o muito especial.&nbsp;
+                            </p>
 
-<p dir="ltr">Beneficie de descontos at&eacute; 40% em bilhetes para todas as classes, para todos os destinos dom&eacute;sticos e internacionais.&nbsp;</p>
+                            <p dir="ltr">
+                              Beneficie de descontos at&eacute; 40% em bilhetes
+                              para todas as classes, para todos os destinos
+                              dom&eacute;sticos e internacionais.&nbsp;
+                            </p>
 
-<p dir="ltr">N&atilde;o perca esta oportunidade e ofere&ccedil;a uma viagem de presente &agrave; sua cara metade.&nbsp;</p>
-</td>
+                            <p dir="ltr">
+                              N&atilde;o perca esta oportunidade e
+                              ofere&ccedil;a uma viagem de presente &agrave; sua
+                              cara metade.&nbsp;
+                            </p>
+                          </td>
                         </tr>
                         <!-- End Content -->
                         <tr>
-                          <td style="padding-top: 30px; padding-bottom: 35px" valign="top">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" height="45" style="
+                          <td
+                            style="padding-top: 30px; padding-bottom: 35px"
+                            valign="top"
+                          >
+                            <table
+                              align="center"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              height="45"
+                              style="
                                 border: 2px;
                                 border-color: rgb(255, 255, 255);
                                 border-style: solid;
-                              " width="155">
+                              "
+                              width="155"
+                            >
                               <tr>
-                                <td align="center" data-color="module17_text3" data-size="module17_text3" height="35" mc:edit="ab88" style="
+                                <td
+                                  align="center"
+                                  data-color="module17_text3"
+                                  data-size="module17_text3"
+                                  height="35"
+                                  mc:edit="ab88"
+                                  style="
                                     color: rgb(89, 89, 89);
                                     font-family: 'Roboto', Arial, Helvetica,
                                       Arial, Helvetica, sans-serif;
@@ -1507,11 +2626,17 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     text-transform: uppercase;
                                     letter-spacing: 0.5px;
                                     line-height: 19.8333px;
-                                  " valign="middle">
-                                  <a data-color="module17_text3" href="#" style="
+                                  "
+                                  valign="middle"
+                                >
+                                  <a
+                                    data-color="module17_text3"
+                                    href="#"
+                                    style="
                                       color: rgb(255, 255, 255);
                                       text-decoration: none;
-                                    ">Subcribe Now
+                                    "
+                                    >Subcribe Now
                                   </a>
                                 </td>
                               </tr>
@@ -1534,44 +2659,99 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
     </table>
     <!-- End module17 -->
 
-
     <!-- Start module19 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module19" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module19"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#212220" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="body212" style="
+          <table
+            align="center"
+            bgcolor="#212220"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="body212"
+            style="
               background-color: rgb(33, 34, 32);
               background-image: url(images/bg4.png);
               background-position: 50% 100%;
               background-size: cover;
               max-width: 800px;
-            " width="100%" data-bg="bg-photo4">
+            "
+            width="100%"
+            data-bg="bg-photo4"
+          >
             <tr>
               <td height="65"></td>
             </tr>
 
             <tr>
               <td valign="top">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td valign="top">
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="600">
+                      <table
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="600"
+                      >
                         <tr>
                           <td class="td_600" valign="top">
                             <!-- Right -->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="315">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="315"
+                            >
                               <tr>
                                 <td valign="top">
                                   <!-- Right -->
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table2" width="288">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table2"
+                                    width="288"
+                                  >
                                     <!-- Content -->
                                     <tr>
-                                      <td align="left" class="text-center" data-color="module19_text1" data-size="module19_text1" mc:edit="1ab82" style="
+                                      <td
+                                        align="left"
+                                        class="text-center"
+                                        data-color="module19_text1"
+                                        data-size="module19_text1"
+                                        mc:edit="1ab82"
+                                        style="
                                           color: rgb(162, 166, 171);
                                           font-family: 'Roboto', Arial,
                                             Helvetica, sans-serif;
@@ -1579,30 +2759,47 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                           font-weight: 600;
                                           line-height: 24.6px;
                                           text-transform: uppercase;
-                                        " valign="top">
+                                        "
+                                        valign="top"
+                                      >
                                         Contact With Peddy
                                       </td>
                                     </tr>
                                     <!-- End Content -->
                                     <tr>
-                                      <td style="
+                                      <td
+                                        style="
                                           padding-bottom: 20px;
                                           padding-top: 5px;
-                                        " valign="top">
-                                        <table align="left" bgcolor="#656565" border="0" cellpadding="0" cellspacing="0" data-bgcolor="line656" height="3" style="
+                                        "
+                                        valign="top"
+                                      >
+                                        <table
+                                          align="left"
+                                          bgcolor="#656565"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          data-bgcolor="line656"
+                                          height="3"
+                                          style="
                                             background-color: rgb(
                                               101,
                                               101,
                                               101
                                             );
-                                          " width="30">
+                                          "
+                                          width="30"
+                                        >
                                           <!-- Line -->
                                           <tr>
-                                            <td style="
+                                            <td
+                                              style="
                                                 font-height: 0px;
                                                 font-size: 0px;
                                                 padding-top: 1px;
-                                              ">
+                                              "
+                                            >
                                               &nbsp;
                                             </td>
                                           </tr>
@@ -1612,14 +2809,22 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     </tr>
                                     <!-- Content -->
                                     <tr>
-                                      <td align="left" class="text-center" data-color="module19_text2" data-size="module19_text2" mc:edit="2ab84" style="
+                                      <td
+                                        align="left"
+                                        class="text-center"
+                                        data-color="module19_text2"
+                                        data-size="module19_text2"
+                                        mc:edit="2ab84"
+                                        style="
                                           color: rgb(162, 166, 171);
                                           font-family: 'open sans', Arial,
                                             Helvetica, sans-serif;
                                           font-size: 13.2167px;
                                           font-weight: 400;
                                           line-height: 19.8333px;
-                                        " valign="top">
+                                        "
+                                        valign="top"
+                                      >
                                         Uisqe vitae theme forest tume builders
                                         less mues nations rcuieelite Lorem Ipsum
                                         is simply dummy text Porem quality wise
@@ -1629,37 +2834,86 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                     <!-- End Content -->
                                     <tr>
                                       <td valign="top">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="160" class="table1">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="160"
+                                          class="table1"
+                                        >
                                           <tr>
-                                            <td valign="top" style="padding-top: 25px">
-                                              <table align="center" border="0" cellpadding="0" cellspacing="0" width="160">
+                                            <td
+                                              valign="top"
+                                              style="padding-top: 25px"
+                                            >
+                                              <table
+                                                align="center"
+                                                border="0"
+                                                cellpadding="0"
+                                                cellspacing="0"
+                                                width="160"
+                                              >
                                                 <!-- Image -->
                                                 <tr>
                                                   <td align="left" valign="top">
-                                                    <a href="#"><img alt="img" data-crop="false" editable="" height="40" label="1ph38" mc:edit="1ph39" src="images/icon17_f.png" style="
+                                                    <a href="#"
+                                                      ><img
+                                                        alt="img"
+                                                        data-crop="false"
+                                                        editable=""
+                                                        height="40"
+                                                        label="1ph38"
+                                                        mc:edit="1ph39"
+                                                        src="images/icon17_f.png"
+                                                        style="
                                                           border: 0px;
                                                           display: block;
                                                           font-size: 0px;
                                                           line-height: 0px;
-                                                        " width="40"></a>
+                                                        "
+                                                        width="40"
+                                                    /></a>
                                                   </td>
 
                                                   <td align="left" valign="top">
-                                                    <a href="#"><img alt="img" data-crop="false" editable="" height="40" label="2ph40" mc:edit="2ph40" src="images/icon18_b.png" style="
+                                                    <a href="#"
+                                                      ><img
+                                                        alt="img"
+                                                        data-crop="false"
+                                                        editable=""
+                                                        height="40"
+                                                        label="2ph40"
+                                                        mc:edit="2ph40"
+                                                        src="images/icon18_b.png"
+                                                        style="
                                                           border: 0px;
                                                           display: block;
                                                           font-size: 0px;
                                                           line-height: 0px;
-                                                        " width="40"></a>
+                                                        "
+                                                        width="40"
+                                                    /></a>
                                                   </td>
 
                                                   <td align="left" valign="top">
-                                                    <a href="#"><img alt="img" data-crop="false" editable="" height="40" label="3ph41" mc:edit="3ph41" src="images/icon19_d.png" style="
+                                                    <a href="#"
+                                                      ><img
+                                                        alt="img"
+                                                        data-crop="false"
+                                                        editable=""
+                                                        height="40"
+                                                        label="3ph41"
+                                                        mc:edit="3ph41"
+                                                        src="images/icon19_d.png"
+                                                        style="
                                                           border: 0px;
                                                           display: block;
                                                           font-size: 0px;
                                                           line-height: 0px;
-                                                        " width="40"></a>
+                                                        "
+                                                        width="40"
+                                                    /></a>
                                                   </td>
                                                 </tr>
                                                 <!-- End Image -->
@@ -1676,19 +2930,40 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                           </td>
                           <td class="td_600" valign="top">
                             <!-- Right -->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="table1" width="285">
+                            <table
+                              align="left"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="table1"
+                              width="285"
+                            >
                               <tr>
                                 <td valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="285" class="table1">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="285"
+                                    class="table1"
+                                  >
                                     <tr>
-                                      <td align="left" data-color="module19_text_2" data-size="module19_text_2" mc:edit="ab97" style="
+                                      <td
+                                        align="left"
+                                        data-color="module19_text_2"
+                                        data-size="module19_text_2"
+                                        mc:edit="ab97"
+                                        style="
                                           color: rgb(162, 166, 171);
                                           font-family: 'open sans', Arial,
                                             Helvetica, sans-serif;
                                           font-size: 13.2167px;
                                           font-weight: 400;
                                           line-height: 19.8333px;
-                                        " valign="top">
+                                        "
+                                        valign="top"
+                                      >
                                         Address: No.28 - 63739 street lorem
                                         ipsum City, Country
                                       </td>
@@ -1697,15 +2972,31 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                 </td>
                               </tr>
                               <tr>
-                                <td style="padding-bottom: 6px; padding-top: 15px" valign="top">
-                                  <table align="left" bgcolor="#3d3e3f" border="0" cellpadding="0" cellspacing="0" class="table-inner" data-bgcolor="line3d3" height="1" style="background-color: rgb(61, 62, 63)" width="285">
+                                <td
+                                  style="padding-bottom: 6px; padding-top: 15px"
+                                  valign="top"
+                                >
+                                  <table
+                                    align="left"
+                                    bgcolor="#3d3e3f"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table-inner"
+                                    data-bgcolor="line3d3"
+                                    height="1"
+                                    style="background-color: rgb(61, 62, 63)"
+                                    width="285"
+                                  >
                                     <!-- Line -->
                                     <tr>
-                                      <td style="
+                                      <td
+                                        style="
                                           font-height: 0px;
                                           font-size: 0px;
                                           padding-top: 1px;
-                                        ">
+                                        "
+                                      >
                                         &nbsp;
                                       </td>
                                     </tr>
@@ -1715,22 +3006,56 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               </tr>
                               <tr>
                                 <td valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="285" class="table1">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="285"
+                                    class="table1"
+                                  >
                                     <tr>
                                       <td valign="top">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="30" class="table1">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="30"
+                                          class="table1"
+                                        >
                                           <tr>
-                                            <td valign="top" style="padding-top: 5px">
+                                            <td
+                                              valign="top"
+                                              style="padding-top: 5px"
+                                            >
                                               <!-- Image -->
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="12" class="table1">
+                                              <table
+                                                align="left"
+                                                border="0"
+                                                cellpadding="0"
+                                                cellspacing="0"
+                                                width="12"
+                                                class="table1"
+                                              >
                                                 <tr>
                                                   <td align="left" valign="top">
-                                                    <img alt="img" data-crop="false" editable="" height="12" label="ph40" mc:edit="ph40" src="images/call.png" style="
+                                                    <img
+                                                      alt="img"
+                                                      data-crop="false"
+                                                      editable=""
+                                                      height="12"
+                                                      label="ph40"
+                                                      mc:edit="ph40"
+                                                      src="images/call.png"
+                                                      style="
                                                         border: 0px;
                                                         display: block;
                                                         font-size: 0px;
                                                         line-height: 0px;
-                                                      " width="12">
+                                                      "
+                                                      width="12"
+                                                    />
                                                   </td>
                                                 </tr>
                                               </table>
@@ -1741,16 +3066,30 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                       </td>
                                       <td valign="top">
                                         <!-- Content -->
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="245" class="table1">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="245"
+                                          class="table1"
+                                        >
                                           <tr>
-                                            <td align="left" data-color="module19_text_2" data-size="module19_text_2" mc:edit="ab98" style="
+                                            <td
+                                              align="left"
+                                              data-color="module19_text_2"
+                                              data-size="module19_text_2"
+                                              mc:edit="ab98"
+                                              style="
                                                 color: rgb(162, 166, 171);
                                                 font-family: 'open sans', Arial,
                                                   Helvetica, sans-serif;
                                                 font-size: 13.2167px;
                                                 font-weight: 400;
                                                 line-height: 19.8333px;
-                                              " valign="top">
+                                              "
+                                              valign="top"
+                                            >
                                               Phone: + 1 (234) 567 8901
                                             </td>
                                           </tr>
@@ -1762,15 +3101,31 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                 </td>
                               </tr>
                               <tr>
-                                <td style="padding-bottom: 6px; padding-top: 12px" valign="top">
-                                  <table align="left" bgcolor="#3d3e3f" border="0" cellpadding="0" cellspacing="0" class="table-inner" data-bgcolor="line3d3" height="1" style="background-color: rgb(61, 62, 63)" width="285">
+                                <td
+                                  style="padding-bottom: 6px; padding-top: 12px"
+                                  valign="top"
+                                >
+                                  <table
+                                    align="left"
+                                    bgcolor="#3d3e3f"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table-inner"
+                                    data-bgcolor="line3d3"
+                                    height="1"
+                                    style="background-color: rgb(61, 62, 63)"
+                                    width="285"
+                                  >
                                     <!-- Line -->
                                     <tr>
-                                      <td style="
+                                      <td
+                                        style="
                                           font-height: 0px;
                                           font-size: 0px;
                                           padding-top: 1px;
-                                        ">
+                                        "
+                                      >
                                         &nbsp;
                                       </td>
                                     </tr>
@@ -1780,22 +3135,56 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               </tr>
                               <tr>
                                 <td valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="285" class="table1">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="285"
+                                    class="table1"
+                                  >
                                     <tr>
                                       <td valign="top">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="30" class="table1">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="30"
+                                          class="table1"
+                                        >
                                           <tr>
-                                            <td valign="top" style="padding-top: 5px">
+                                            <td
+                                              valign="top"
+                                              style="padding-top: 5px"
+                                            >
                                               <!-- Image -->
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="12" class="table1">
+                                              <table
+                                                align="left"
+                                                border="0"
+                                                cellpadding="0"
+                                                cellspacing="0"
+                                                width="12"
+                                                class="table1"
+                                              >
                                                 <tr>
                                                   <td align="left" valign="top">
-                                                    <img alt="img" data-crop="false" editable="" height="12" label="ph41" mc:edit="ph41" src="images/call2.png" style="
+                                                    <img
+                                                      alt="img"
+                                                      data-crop="false"
+                                                      editable=""
+                                                      height="12"
+                                                      label="ph41"
+                                                      mc:edit="ph41"
+                                                      src="images/call2.png"
+                                                      style="
                                                         border: 0px;
                                                         display: block;
                                                         font-size: 0px;
                                                         line-height: 0px;
-                                                      " width="12">
+                                                      "
+                                                      width="12"
+                                                    />
                                                   </td>
                                                 </tr>
                                               </table>
@@ -1806,16 +3195,30 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                       </td>
                                       <td valign="top">
                                         <!-- Content -->
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="245" class="table1">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="245"
+                                          class="table1"
+                                        >
                                           <tr>
-                                            <td align="left" data-color="module19_text_2" data-size="module19_text_2" mc:edit="ab99" style="
+                                            <td
+                                              align="left"
+                                              data-color="module19_text_2"
+                                              data-size="module19_text_2"
+                                              mc:edit="ab99"
+                                              style="
                                                 color: rgb(162, 166, 171);
                                                 font-family: 'open sans', Arial,
                                                   Helvetica, sans-serif;
                                                 font-size: 13.2167px;
                                                 font-weight: 400;
                                                 line-height: 19.8333px;
-                                              " valign="top">
+                                              "
+                                              valign="top"
+                                            >
                                               Fax: + 1 (234) 567 8901
                                             </td>
                                           </tr>
@@ -1828,15 +3231,31 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               </tr>
 
                               <tr>
-                                <td style="padding-bottom: 6px; padding-top: 12px" valign="top">
-                                  <table align="left" bgcolor="#3d3e3f" border="0" cellpadding="0" cellspacing="0" class="table-inner" data-bgcolor="line3d3" height="1" style="background-color: rgb(61, 62, 63)" width="285">
+                                <td
+                                  style="padding-bottom: 6px; padding-top: 12px"
+                                  valign="top"
+                                >
+                                  <table
+                                    align="left"
+                                    bgcolor="#3d3e3f"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="table-inner"
+                                    data-bgcolor="line3d3"
+                                    height="1"
+                                    style="background-color: rgb(61, 62, 63)"
+                                    width="285"
+                                  >
                                     <!-- Line -->
                                     <tr>
-                                      <td style="
+                                      <td
+                                        style="
                                           font-height: 0px;
                                           font-size: 0px;
                                           padding-top: 1px;
-                                        ">
+                                        "
+                                      >
                                         &nbsp;
                                       </td>
                                     </tr>
@@ -1847,22 +3266,56 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
 
                               <tr>
                                 <td valign="top">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="285" class="table1">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="285"
+                                    class="table1"
+                                  >
                                     <tr>
                                       <td valign="top">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="30" class="table1">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="30"
+                                          class="table1"
+                                        >
                                           <tr>
-                                            <td valign="top" style="padding-top: 5px">
+                                            <td
+                                              valign="top"
+                                              style="padding-top: 5px"
+                                            >
                                               <!-- Image -->
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="12" class="table1">
+                                              <table
+                                                align="left"
+                                                border="0"
+                                                cellpadding="0"
+                                                cellspacing="0"
+                                                width="12"
+                                                class="table1"
+                                              >
                                                 <tr>
                                                   <td align="left" valign="top">
-                                                    <img alt="img" data-crop="false" editable="" height="12" label="ph42" mc:edit="ph42" src="images/mail.png" style="
+                                                    <img
+                                                      alt="img"
+                                                      data-crop="false"
+                                                      editable=""
+                                                      height="12"
+                                                      label="ph42"
+                                                      mc:edit="ph42"
+                                                      src="images/mail.png"
+                                                      style="
                                                         border: 0px;
                                                         display: block;
                                                         font-size: 0px;
                                                         line-height: 0px;
-                                                      " width="15">
+                                                      "
+                                                      width="15"
+                                                    />
                                                   </td>
                                                 </tr>
                                               </table>
@@ -1873,16 +3326,30 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                       </td>
                                       <td valign="top">
                                         <!-- Content -->
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="245" class="table1">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="245"
+                                          class="table1"
+                                        >
                                           <tr>
-                                            <td align="left" data-color="module19_text_2" data-size="module19_text_2" mc:edit="ab100" style="
+                                            <td
+                                              align="left"
+                                              data-color="module19_text_2"
+                                              data-size="module19_text_2"
+                                              mc:edit="ab100"
+                                              style="
                                                 color: rgb(162, 166, 171);
                                                 font-family: 'open sans', Arial,
                                                   Helvetica, sans-serif;
                                                 font-size: 13.2167px;
                                                 font-weight: 400;
                                                 line-height: 19.8333px;
-                                              " valign="top">
+                                              "
+                                              valign="top"
+                                            >
                                               Email: support@yoursite.com
                                             </td>
                                           </tr>
@@ -1895,20 +3362,39 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                               </tr>
                               <tr>
                                 <td valign="top" style="padding-top: 20px">
-                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="150">
+                                  <table
+                                    align="left"
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="150"
+                                  >
                                     <tr>
                                       <td valign="top">
                                         <!-- Content -->
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="120">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="120"
+                                        >
                                           <tr>
-                                            <td align="left" data-color="module19_text_3" data-size="module19_text_3" mc:edit="ab101" style="
+                                            <td
+                                              align="left"
+                                              data-color="module19_text_3"
+                                              data-size="module19_text_3"
+                                              mc:edit="ab101"
+                                              style="
                                                 color: rgb(205, 205, 205);
                                                 font-family: 'open sans', Arial,
                                                   Helvetica, sans-serif;
                                                 font-size: 13.2167px;
                                                 font-weight: 400;
                                                 line-height: 19.8333px;
-                                              " valign="top">
+                                              "
+                                              valign="top"
+                                            >
                                               More About US
                                             </td>
                                           </tr>
@@ -1916,19 +3402,44 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
                                         <!-- End Content -->
                                       </td>
                                       <td valign="middle">
-                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="30">
+                                        <table
+                                          align="left"
+                                          border="0"
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="30"
+                                        >
                                           <tr>
                                             <td valign="middle">
                                               <!-- Image -->
-                                              <table align="left" border="0" cellpadding="0" cellspacing="0" width="12">
+                                              <table
+                                                align="left"
+                                                border="0"
+                                                cellpadding="0"
+                                                cellspacing="0"
+                                                width="12"
+                                              >
                                                 <tr>
-                                                  <td align="left" valign="middle">
-                                                    <img alt="img" data-crop="false" editable="" height="6" label="ph43" mc:edit="ph43" src="images/arrow.png" style="
+                                                  <td
+                                                    align="left"
+                                                    valign="middle"
+                                                  >
+                                                    <img
+                                                      alt="img"
+                                                      data-crop="false"
+                                                      editable=""
+                                                      height="6"
+                                                      label="ph43"
+                                                      mc:edit="ph43"
+                                                      src="images/arrow.png"
+                                                      style="
                                                         border: 0px;
                                                         display: block;
                                                         font-size: 0px;
                                                         line-height: 0px;
-                                                      " width="14">
+                                                      "
+                                                      width="14"
+                                                    />
                                                   </td>
                                                 </tr>
                                               </table>
@@ -1961,21 +3472,53 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
     <!-- End module19 -->
 
     <!-- Start module20 -->
-    <table align="center" bgcolor="#212121" border="0" cellpadding="0" cellspacing="0" data-bgcolor="background" data-module="module20" data-thumb="" style="
+    <table
+      align="center"
+      bgcolor="#212121"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      data-bgcolor="background"
+      data-module="module20"
+      data-thumb=""
+      style="
         background-color: rgb(33, 33, 33);
         opacity: 1;
         position: relative;
         z-index: 0;
-      " width="100%">
+      "
+      width="100%"
+    >
       <tr>
         <td>
-          <table align="center" bgcolor="#010101" border="0" cellpadding="0" cellspacing="0" class="table680" data-bgcolor="body010" style="background-color: rgb(1, 1, 1); max-width: 800px" width="100%">
+          <table
+            align="center"
+            bgcolor="#010101"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            class="table680"
+            data-bgcolor="body010"
+            style="background-color: rgb(1, 1, 1); max-width: 800px"
+            width="100%"
+          >
             <tr>
               <td valign="top">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table680" height="2" style="background-color: rgb(33, 33, 33)" width="800">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table680"
+                  height="2"
+                  style="background-color: rgb(33, 33, 33)"
+                  width="800"
+                >
                   <!-- Line -->
                   <tr>
-                    <td style="font-height: 0px; font-size: 0px; padding-top: 1px">
+                    <td
+                      style="font-height: 0px; font-size: 0px; padding-top: 1px"
+                    >
                       &nbsp;
                     </td>
                   </tr>
@@ -1989,36 +3532,67 @@ O FESTIVAL DE JAZZ EM CAPETOWN </span></td>
 
             <tr>
               <td valign="top">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-inner" width="600">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="table-inner"
+                  width="600"
+                >
                   <tr>
                     <td valign="top">
-                      <table align="center" border="0" cellpadding="0" cellspacing="0" class="table1" width="500">
+                      <table
+                        align="center"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="table1"
+                        width="500"
+                      >
                         <!-- Content -->
                         <tr>
-                          <td align="center" data-color="module20_text1" ze="module20_text1" mc:edit="ab148" style="
+                          <td
+                            align="center"
+                            data-color="module20_text1"
+                            ze="module20_text1"
+                            mc:edit="ab148"
+                            style="
                               color: rgb(162, 166, 171);
                               font-family: 'open sans', Arial, Helvetica,
                                 sans-serif;
                               font-size: 13.2167px;
                               font-weight: 400;
                               line-height: 19.8333px;
-                            " valign="top">
+                            "
+                            valign="top"
+                          >
                             &copy; ___________________________________
                           </td>
                         </tr>
                         <tr>
-                          <td align="center" class="text-center" data-color="module20_text2" data-size="module20_text2" mc:edit="b2" style="
+                          <td
+                            align="center"
+                            class="text-center"
+                            data-color="module20_text2"
+                            data-size="module20_text2"
+                            mc:edit="b2"
+                            style="
                               color: rgb(162, 166, 171);
                               font-family: 'open sans', Arial, Helvetica,
                                 sans-serif;
                               font-size: 13.2167px;
                               font-weight: 400;
                               line-height: 19.8333px;
-                            ">
-                            <a href="*|UNSUB|*" style="
+                            "
+                          >
+                            <a
+                              href="*|UNSUB|*"
+                              style="
                                 color: rgb(162, 166, 171);
                                 text-decoration: none;
-                              ">
+                              "
+                            >
                               Linhas aereas de Angola
                             </a>
                           </td>
